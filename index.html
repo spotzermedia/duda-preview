@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Duda Preview</title>
+    <meta content="noindex, nofollow" name="robots">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#EC5E08">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+    <script src="script.js" type="text/javascript"></script>
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" href="https://www.spotzer.com/wp-content/uploads/2017/08/favicon-60.png" type="image/png" />
+</head>
+
+<body>
+    <a class="logo" href="https://www.spotzer.com/" target="_blank">
+        <img src="https://www.spotzer.com/wp-content/uploads/2017/08/spotzer-white-logo.png"></img>
+    </a>
+    <div id="main">
+        <h1>Duda Preview</h1>
+        <form id="form" name="form" method="post">
+            <label>Duda ID</label>
+            <input class="dudaid" type="text" name="dudaid" id="dudaid">
+            <br/>
+            <label>Device</label>
+            <select class="device" id="device">
+                <option value="mobile">Mobile</option>
+                <option value="tablet">Tablet</option>
+                <option value="desktop">Desktop</option>
+            </select>
+            <div class="desktopcheck">
+                <input type="checkbox" class="iamdesktop" name="iamdesktop" id="iamdesktop" value="iamdesktop" onclick="hideMe('device')">
+                <br>
+                <div class="iamdesktoptext">Use Duda Standard Preview</div>
+            </div>
+            <br/>
+            <input class="submit" id="submit" type="submit" value="Go to Preview">
+        </form>
+        <a class="info" href="https://github.com/spotzerdesign/duda-preview/blob/master/README.md" target="_blank">Read more</a>
+    </div>
+</body>
+
+</html>
