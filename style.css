@@ -10,11 +10,11 @@ html {
 
 body {
 
-    background-color: #FD9519;
     background-image: url(https://www.spotzer.com/wp-content/uploads/2017/09/circles_background.png?id=134);
     background-position: center;
     background-repeat: repeat;
     background-size: cover;
+    background-color: #FD9519;
     height: auto;
     display: flex;
 }
